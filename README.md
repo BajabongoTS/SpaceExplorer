@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Space Explorer
 
-## Getting Started
+**Space Explorer** to interaktywna aplikacja webowa stworzona w **Next.js**, która pozwala użytkownikom eksplorować Układ Słoneczny oraz wykonywać obliczenia związane z prędkością satelitów.
 
-First, run the development server:
+🌐 **Demo aplikacji:**
+https://space-explorer-smoky.vercel.app/
+
+---
+
+## 📌 Funkcje
+
+### 🌌 Wizualizacja Układu Słonecznego
+
+* Interaktywny model Układu Słonecznego
+* Możliwość przeglądania planet i ich położenia
+* Przyjazny i nowoczesny interfejs
+
+### 🛰️ Obliczanie prędkości satelity
+
+* Kalkulator prędkości orbitalnej
+* Wprowadzenie parametrów takich jak:
+
+  * wysokość orbity
+  * masa planety (lub inne dane wejściowe)
+* Szybkie i dokładne wyniki
+
+---
+
+## 🛠️ Technologie
+
+Projekt został zbudowany przy użyciu:
+
+* **Next.js** – framework React do budowy aplikacji webowych
+* **React** – biblioteka UI
+* **JavaScript / TypeScript**
+* **CSS / Tailwind / inne style (jeśli użyto)**
+
+---
+
+## 🚀 Uruchomienie projektu lokalnie
+
+Aby uruchomić projekt na swoim komputerze:
 
 ```bash
+# Klonowanie repozytorium
+git clone <link-do-repozytorium>
+
+# Przejście do folderu projektu
+cd space-explorer
+
+# Instalacja zależności
+npm install
+
+# Uruchomienie aplikacji
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplikacja będzie dostępna pod adresem:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📊 Możliwe rozszerzenia
 
-## Learn More
+* Dodanie większej liczby danych o planetach
+* Animacje orbit
+* Tryb 3D (np. Three.js)
+* Historia misji kosmicznych
+* Rozbudowany kalkulator orbitalny
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Projekt stworzony jako aplikacja edukacyjna i demonstracyjna.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Licencja
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ten projekt jest dostępny na zasadach licencji MIT (lub innej – dostosuj w zależności od projektu).
+
+---
+
+💡 Jeśli masz pomysły na rozwój projektu – śmiało rozwijaj i eksperymentuj!
